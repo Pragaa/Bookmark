@@ -1,0 +1,1 @@
+This is a project developed to learn how to implement local storage

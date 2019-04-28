@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/style.css">
+ 
+
+
+</head>
+<body onload="fetchBookmarks()">
+  
+  <section id="header" class="centered">
+    <nav>
+
+    </nav>
+    <h1>Bookmarker</h1>
+  </section>
+ 
+  <section id="submiter" class="centered">
+    <h1>Bookmark your favorite sites</h1>
+    
+    <form id="myForm">
+      <div class="form-group">
+        <label>Site Name</label>
+        <input type="text" class="form-control" id="siteName" placeholder="Website Name">
+      </div>
+      <div class="form-group">
+        <label>Site link</label>
+        <input type="text" class="form-control" id="siteURL" placeholder="Website URL">
+      </div>
+      <button type="submit" >Submit</button>
+    </form>
+
+  </section>
+
+  <section id="Bookmarker" class="centered">
+    <div id="bookmarksResults"></div>
+  </section>
+
+  <footer id="footer" class="centered">
+    <p>&copy; 2018 Bookmarker by Gonçalo.</p>
+  </footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
